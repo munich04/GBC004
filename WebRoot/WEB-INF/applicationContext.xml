@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+
+	<bean id="hangUpManager" class="com.manager.impl.HangUpManagerImpl">
+		<property name="hangUpDao">
+			<ref local="hangUpDao"/>
+		</property>
+		<property name="dailyDao">
+			<ref local="dailyDao"/>
+		</property>
+	</bean>
+	
+	<bean id="hangUpDao" class="com.dao.impl.HangUpDaoImpl">
+		<property name="sessionFactory">
+			<ref local="sessionFactory"/>
+		</property>
+	</bean>
+	
+	<bean id="mineManager" class="com.manager.impl.MineManagerImpl">
+		<property name="mineDao">
+			<ref local="mineDao"/>
+		</property>
+	</bean>
+	
+	<bean id="mineDao" class="com.dao.impl.MineDaoImpl">
+		<property name="sessionFactory">
+			<ref local="sessionFactory"/>
+		</property>
+	</bean>
+	
+	<bean id="systemLogManager" class="com.manager.impl.SystemLogManagerImpl">
+		<property name="systemLogDao">
+			<ref local="systemLogDao"/>
+		</property>
+	</bean>
+	
+	<bean id="systemLogDao" class="com.dao.impl.SystemLogDaoImpl">
+		<property name="sessionFactory">
+			<ref local="sessionFactory"/>
+		</property>
+	</bean>
+
+	<bean id="sychronizeManager" class="com.manager.impl.SychronizeManagerImpl">
+		<property name="sychronizeDao">
+			<ref local="sychronizeDao"/>
+		</property>
+	</bean>
+	
+	<bean id="sychronizeDao" class="com.dao.impl.SychronizeDaoImpl">
+		<property name="sessionFactory">
+			<ref local="sessionFactory"/>
+		</property>
+	</bean>
+
+	<bean id="dailyManager" class="com.manager.impl.DailyManagerImpl">
+		<property name="dailyDao">
+			<ref local="dailyDao"/>
+		</property>
+	</bean>
+	
+	<bean id="dailyDao" class="com.dao.impl.DailyDaoImpl">
+		<property name="sessionFactory">
+			<ref local="sessionFactory"/>
+		</property>
+	</bean>
+	
+	<bean id="carManager" class="com.manager.impl.CarManagerImpl">
+		<property name="carDao">
+			<ref local="carDao"/>
+		</property>
+	</bean>
+	
+	<bean id="carDao" class="com.dao.impl.CarDaoImpl">
+		<property name="sessionFactory">
+			<ref local="sessionFactory"/>
+		</property>
+	</bean>
+	
+	<bean id="userManager" class="com.manager.impl.UserManagerImpl">
+		<property name="userDao">
+			<ref local="userDao"/>
+		</property>
+	</bean>
+	
+	<bean id="userDao" class="com.dao.impl.UserDaoImpl">
+		<property name="sessionFactory">
+			<ref local="sessionFactory"/>
+		</property>
+	</bean>
+	
+	<bean id="sessionFactory" class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<property name="dataSource">
+			<ref local="myDataSource"/>
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.show_sql">true</prop>
+				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+			</props>
+		</property>
+		<property name="mappingResources">
+			<list>
+				<value>com/po/carInfo.hbm.xml</value>
+				<value>com/po/dailyInfo.hbm.xml</value>
+				<value>com/po/userInfo.hbm.xml</value>
+				<value>com/po/ipInfo.hbm.xml</value>
+				<value>com/po/portInfo.hbm.xml</value>
+				<value>com/po/mineInfo.hbm.xml</value>
+				<value>com/po/hangUpOperation.hbm.xml</value>
+				<value>com/po/exportDateAssistant.hbm.xml</value>
+				<value>com/po/systemLogInfo.hbm.xml</value>
+			</list>
+		</property>
+	</bean>
+	
+	<bean id="myDataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="${driver}"></property>
+		<property name="url" value="${url}"></property>
+		<property name="username" value="${user}"></property>
+		<property name="password" value="${password}"></property>
+	</bean>
+	
+	<bean id="readProperties" class="org.springframework.beans.factory.config.PreferencesPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>/WEB-INF/dbMySql.properties</value>
+			</list>
+		</property>
+	</bean>
+</beans>

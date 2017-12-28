@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+	<class name="com.po.UserInfo" table="userinfo">
+		<id name="id" column="id">
+			<generator class="uuid"></generator>
+		</id>
+		<property name="userName" column="userName"></property>
+		<property name="passWord" column="passWord"></property>
+		<property name="nickName" column="nickName"></property>
+		<property name="registerTime" column="registerTime"></property>
+		<property name="authority" column="authority"></property> 
+	</class>
+
+</hibernate-mapping>

@@ -1,0 +1,70 @@
+<!-- Ö÷Ò³×ó²à²Ëµ¥css -->
+#menus {
+	font-family: "Î¢ÈíÑÅºÚ", "Verdana", "Arial", "Helvetica", "sans-serif";
+	cursor: hand;
+	color: #191970;
+}
+
+.mainMenuClass1 {
+	background-image: url(../pic/menuSub.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding: 5px 5px 5px 20px;
+}
+
+.mainMenuClass2 {
+	background-image: url(../pic/menuAdd.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding: 5px 5px 5px 20px;
+}
+
+.subMenus {
+	margin-left: 20px;
+}
+
+.subMenus li {
+	list-style-type: square;
+	padding: 5px;
+}
+
+#headerTd {
+	height: 70px;
+	text-align: center;
+	background-color: #DCDCDC;
+}
+
+#headerTd ul li {
+	float: right;
+	padding: 3px;
+	margin: 5px 5px 35px 5px;
+	font-weight: bold;
+	border: 1px solid #191970;
+	cursor: hand;
+	color: #191970;
+}
+
+#menuTd {
+	width: 172px;
+	vertical-align: top;
+}
+
+#barTd {
+	width: 15px;
+	text-align: center;
+	background-color: #DCDCDC;
+}
+
+#frameContainer {
+	margin: 10px 10px 0px; 10 px;
+	width: 100%;
+	height: 100%;
+	border: 0px;
+}
+
+#welcomeTd {
+	height: 25px;
+	padding: 3px 5px 0 0px;
+	background: #e2e9fe url(pic/welcomebg.jpg) repeat-x top;
+	line-height: 33px;
+}

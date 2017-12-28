@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+    
+<struts>
+
+	<constant name="struts.i18n.encoding" value="GBK"></constant>
+	<constant name="struts.objectFactory.spring.autoWire" value="type"></constant>
+	
+	<package name="first" extends="struts-default">
+	
+		<!-- global-results>
+			<result name="exception">/error.jsp</result>
+		</global-results>
+		
+		<global-exception-mappings>
+			<exception-mapping exception="java.lang.Exception" result="exception" />
+		</global-exception-mappings -->
+	
+		<action name="listCar" class="com.action.CarAction" method="listCar">
+			<result>/carInfo/listCar.jsp</result>
+		</action>
+		<action name="saveOrUpdateCar" class="com.action.CarAction" method="saveOrUpdateCar">
+			<result type="redirectAction">/listCar.action?carSearchVO.carNumber=${carSearchVO.carNumber}&amp;carSearchVO.carIDCardID=${carSearchVO.carIDCardID}&amp;carSearchVO.carDept=${carSearchVO.carDept}&amp;carSearchVO.carDriver=${carSearchVO.carDriver}&amp;carSearchVO.carLowerWeight=${carSearchVO.carLowerWeight}&amp;carSearchVO.carHigherWeight=${carSearchVO.carHigherWeight}</result>
+		</action>
+		<action name="addCar" class="com.action.CarAction" method="addCar">
+			<result>/carInfo/addCar.jsp</result>
+		</action>
+		<action name="modifyCar" class="com.action.CarAction" method="modifyCar">
+			<result>/carInfo/modifyCar.jsp</result>
+		</action>
+		<action name="viewCar" class="com.action.CarAction" method="viewCar">
+			<result>/carInfo/viewCar.jsp</result>
+		</action>
+		<action name="deleteCar" class="com.action.CarAction" method="deleteCar">
+			<result type="redirect">/listCar.action?page.pageNum=${page.pageNum}&amp;carSearchVO.carNumber=${carSearchVO.carNumber}&amp;carSearchVO.carIDCardID=${carSearchVO.carIDCardID}&amp;carSearchVO.carDept=${carSearchVO.carDept}&amp;carSearchVO.carDriver=${carSearchVO.carDriver}&amp;carSearchVO.carLowerWeight=${carSearchVO.carLowerWeight}&amp;carSearchVO.carHigherWeight=${carSearchVO.carHigherWeight}</result>
+		</action>
+		
+		<action name="searchDaily" class="com.action.DailyAction" method="searchDaily">
+			<result>/dailyInfo/searchDaily.jsp</result>
+		</action>
+		<action name="addDaily" class="com.action.DailyAction" method="addDaily">
+			<result>/dailyInfo/addDaily.jsp</result>
+		</action>
+		<action name="saveOrUpdateDaily" class="com.action.DailyAction" method="saveOrUpdateDaily">
+			<result></result>
+		</action>
+		<action name="viewDaily" class="com.action.DailyAction" method="viewDaily">
+			<result>/dailyInfo/viewDaily.jsp</result>
+		</action>
+		<action name="deleteDaily" class="com.action.DailyAction" method="deleteDaily">
+			<result type="redirectAction">searchDaily?page.pageNum=${page.pageNum}&amp;dailySearchVO.hasFinished=${dailySearchVO.hasFinished}&amp;dailySearchVO.startMillis=${dailySearchVO.startMillis}&amp;dailySearchVO.endMillis=${dailySearchVO.endMillis}&amp;dailySearchVO.hasFinished=${dailySearchVO.hasFinished}&amp;dailySearchVO.carDept=${dailySearchVO.carDept}&amp;dailySearchVO.carNumber=${dailySearchVO.carNumber}&amp;dailySearchVO.hangUpState=${dailySearchVO.hangUpState}&amp;dailySearchVO.carDriver=${dailySearchVO.carDriver}&amp;dailySearchVO.lowerWeight=${dailySearchVO.lowerWeight}&amp;dailySearchVO.higherWeight=${dailySearchVO.higherWeight}</result>
+		</action>
+		
+		<action name="listSystemLog" class="com.action.SystemLogAction" method="listSystemLog">
+			<result>/systemLog/listSystemLog.jsp</result>
+		</action>
+		<action name="viewSystemLog" class="com.action.SystemLogAction" method="viewSystemLog">
+			<result>/systemLog/viewSystemLog.jsp</result>
+		</action>
+		<action name="deleteSystemLog" class="com.action.SystemLogAction" method="deleteSystemLog">
+			<result type="redirectAction">listSystemLog?page.pageNum=${page.pageNum}</result>
+		</action>
+
+		<action name="exportDaily" class="com.action.DailyAction" method="exportDaily">
+			<result>/dailyInfo/exportToExcel.jsp</result>
+		</action>
+
+		<action name="exportDailyTotxt" class="com.action.DailyAction" method="exportDailyToTxt">
+			<result>/dailyInfo/exportToExcel.jsp</result>
+		</action>
+		<action name="listAndDownloadExcel" class="com.action.DailyAction" method="listAndDownloadExcel">
+			<result>/dailyInfo/listAndDownloadExcel.jsp</result>
+		</action>
+		
+		
+		<action name="loginUser" class="com.action.UserAction" method="loginUser">
+			<result name="error">/index.jsp</result>
+			<result name="success" type="redirect">/main.jsp</result>
+		</action>
+		<action name="switchUser" class="com.action.UserAction" method="switchUser">
+			<result>/index.jsp</result>
+		</action>
+		<action name="registerUser" class="com.action.UserAction" method="registerUser">
+			<result name="error">/register.jsp</result>
+			<result name="success" type="redirect">/main.jsp</result>
+		</action>
+		<action name="viewLoginUser" class="com.action.UserAction" method="viewLoginUser">
+			<result>/userInfo/viewUserInfo.jsp</result>
+		</action>
+		<action name="changeUserPwd" class="com.action.UserAction" method="changeUserPwd">
+			<result></result>
+		</action>
+		<action name="listUser" class="com.action.UserAction" method="listUser">
+			<result>/userInfo/listUser.jsp</result>
+		</action>
+		<action name="viewUser" class="com.action.UserAction" method="viewUser">
+			<result>/userInfo/viewUserChoosed.jsp</result>
+		</action>
+		
+		<action name="addMine" class="com.action.MineAction" method="addMine">
+			<result>/mineInfo/addMine.jsp</result>
+		</action>
+		<action name="modifyMine" class="com.action.MineAction" method="modifyMine">
+			<result>/mineInfo/modifyMine.jsp</result>
+		</action>
+		<action name="viewMine" class="com.action.MineAction" method="viewMine">
+			<result>/mineInfo/viewMine.jsp</result>
+		</action>
+		<action name="listMine" class="com.action.MineAction" method="listMine">
+			<result>/mineInfo/listMine.jsp</result>
+		</action>
+		<action name="saveOrUpdateMine" class="com.action.MineAction" method="saveOrUpdateMine">
+			<result type="redirect">/listMine.action?page.pageNum=${page.pageNum}</result>
+		</action>
+		<action name="deleteMine" class="com.action.MineAction" method="deleteMine">
+			<result type="redirect">/listMine.action?page.pageNum=${page.pageNum}</result>
+		</action>
+		
+		<action name="saveOrUpdateHangUp" class="com.action.HangUpAction" method="saveOrUpdateHangUp">
+			<result></result>
+		</action>
+		<action name="dealHangUp" class="com.action.HangUpAction" method="dealHangUp">
+			<result>/hangUp/dealHangUp.jsp</result>
+		</action>
+		<action name="goToLoadHangUp" class="com.action.HangUpAction" method="goToLoadHangUp">
+			<result>/hangUp/viewHangUpOperations.jsp</result>
+		</action>
+		
+	</package>
+</struts>

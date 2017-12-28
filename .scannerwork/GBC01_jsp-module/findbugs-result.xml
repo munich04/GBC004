@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.0-RC6" sequence="0" timestamp="1514092281580" analysisTimestamp="1514449089681" release="">
+  <Project>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\action\BaseAction.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\action\CarAction.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\action\DailyAction.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\action\HangUpAction.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\action\MineAction.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\action\SystemLogAction.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\action\UserAction.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\dao\CarDao.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\dao\DailyDao.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\dao\HangUpDao.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\dao\MineDao.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\dao\SychronizeDao.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\dao\SystemLogDao.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\dao\UserDao.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\dwr\DWRUtil.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\filter\LoginFilter.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\filter\PathFilter.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\listener\MainListener.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\manager\CarManager.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\manager\DailyManager.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\manager\HangUpManager.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\manager\MineManager.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\manager\SychronizeManager.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\manager\SystemLogManager.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\manager\UserManager.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\po\CarInfo.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\po\DailyInfo.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\po\ExportDateAssistant.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\po\HangUpOperation.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\po\IpInfo.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\po\MineInfo.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\po\PortInfo.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\po\SystemLogInfo.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\po\UserInfo.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\rs232\RS232Dealer.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\rs232\RS232Listener.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\socket\FileClientSocket.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\socket\FileServerSocket.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\socket\Test.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\taglib\PageTag.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\util\ExportToExcel.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\util\JsonUtil.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\util\MyUtil.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\util\NetSpeedUtil.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\util\Page.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\vo\CarSearchVO.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\vo\DailyLoadInfoVO.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\vo\DailySearchVO.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\vo\HangUpOperationVO.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\vo\UserSearchVO.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\dao\impl\CarDaoImpl$1.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\dao\impl\CarDaoImpl.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\dao\impl\DailyDaoImpl$1.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\dao\impl\DailyDaoImpl$2.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\dao\impl\DailyDaoImpl$3.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\dao\impl\DailyDaoImpl.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\dao\impl\HangUpDaoImpl.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\dao\impl\MineDaoImpl$1.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\dao\impl\MineDaoImpl.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\dao\impl\SychronizeDaoImpl$1.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\dao\impl\SychronizeDaoImpl$2.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\dao\impl\SychronizeDaoImpl.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\dao\impl\SystemLogDaoImpl$1.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\dao\impl\SystemLogDaoImpl.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\dao\impl\UserDaoImpl$1.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\dao\impl\UserDaoImpl.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\listener\task\SetDataBackUpTask.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\manager\impl\CarManagerImpl.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\manager\impl\DailyManagerImpl.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\manager\impl\HangUpManagerImpl.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\manager\impl\MineManagerImpl.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\manager\impl\SychronizeManagerImpl.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\manager\impl\SystemLogManagerImpl.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\manager\impl\UserManagerImpl.class</Jar>
+    <Jar>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes\com\util\test\ExportToTxt.class</Jar>
+    <AuxClasspathEntry>D:\workspace\Java\GBC\WebRoot\WEB-INF\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\workspace\Java\GBC\WebRoot\WEB-INF\lib\antlr-2.7.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\workspace\Java\GBC\WebRoot\WEB-INF\lib\aspectjweaver.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\workspace\Java\GBC\WebRoot\WEB-INF\lib\cglib-nodep-2.1_3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\workspace\Java\GBC\WebRoot\WEB-INF\lib\comm.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\workspace\Java\GBC\WebRoot\WEB-INF\lib\commons-collections.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\workspace\Java\GBC\WebRoot\WEB-INF\lib\commons-logging-1.0.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\workspace\Java\GBC\WebRoot\WEB-INF\lib\dom4j-1.6.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\workspace\Java\GBC\WebRoot\WEB-INF\lib\dwr.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\workspace\Java\GBC\WebRoot\WEB-INF\lib\freemarker-2.3.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\workspace\Java\GBC\WebRoot\WEB-INF\lib\gson-1.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\workspace\Java\GBC\WebRoot\WEB-INF\lib\hibernate3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\workspace\Java\GBC\WebRoot\WEB-INF\lib\jstl.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\workspace\Java\GBC\WebRoot\WEB-INF\lib\jta.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\workspace\Java\GBC\WebRoot\WEB-INF\lib\jxl.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\workspace\Java\GBC\WebRoot\WEB-INF\lib\log4j-1.2.14.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\workspace\Java\GBC\WebRoot\WEB-INF\lib\mysql-connector-java-5.0.4-bin.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\workspace\Java\GBC\WebRoot\WEB-INF\lib\ognl-2.6.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\workspace\Java\GBC\WebRoot\WEB-INF\lib\spring.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\workspace\Java\GBC\WebRoot\WEB-INF\lib\standard.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\workspace\Java\GBC\WebRoot\WEB-INF\lib\struts2-core-2.0.11.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\workspace\Java\GBC\WebRoot\WEB-INF\lib\struts2-spring-plugin-2.0.11.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\workspace\Java\GBC\WebRoot\WEB-INF\lib\xwork-2.0.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\workspace\Java\GBC\WebRoot\WEB-INF\lib</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\workspace\Java\GBC\.scannerwork\GBC01_jsp-module\findbugs\annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>D:\workspace\Java\GBC\.scannerwork\GBC01_jsp-module\findbugs\jsr305.jar</AuxClasspathEntry>
+    <WrkDir>D:\workspace\Java\GBC\.scannerwork\GBC01_jsp-module</WrkDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sun, 24 Dec 2017 13:11:21 +0800" total_classes="75" referenced_classes="178" total_bugs="0" total_size="3156" num_packages="16" java_version="1.8.0_121" vm_version="25.121-b13" cpu_seconds="48.69" clock_seconds="16.27" peak_mbytes="454.86" alloc_mbytes="1797.50" gc_seconds="0.22">
+    <FileStats path="com/action/BaseAction.java" bugCount="0" size="14"/>
+    <FileStats path="com/action/CarAction.java" bugCount="0" size="40"/>
+    <FileStats path="com/action/DailyAction.java" bugCount="0" size="43"/>
+    <FileStats path="com/action/HangUpAction.java" bugCount="0" size="22"/>
+    <FileStats path="com/action/MineAction.java" bugCount="0" size="32"/>
+    <FileStats path="com/action/SystemLogAction.java" bugCount="0" size="25"/>
+    <FileStats path="com/action/UserAction.java" bugCount="0" size="45"/>
+    <FileStats path="com/dao/CarDao.java" bugCount="0" size="7"/>
+    <FileStats path="com/dao/DailyDao.java" bugCount="0" size="16"/>
+    <FileStats path="com/dao/HangUpDao.java" bugCount="0" size="4"/>
+    <FileStats path="com/dao/MineDao.java" bugCount="0" size="6"/>
+    <FileStats path="com/dao/SychronizeDao.java" bugCount="0" size="17"/>
+    <FileStats path="com/dao/SystemLogDao.java" bugCount="0" size="6"/>
+    <FileStats path="com/dao/UserDao.java" bugCount="0" size="7"/>
+    <FileStats path="com/dao/impl/CarDaoImpl.java" bugCount="0" size="54"/>
+    <FileStats path="com/dao/impl/DailyDaoImpl.java" bugCount="0" size="149"/>
+    <FileStats path="com/dao/impl/HangUpDaoImpl.java" bugCount="0" size="11"/>
+    <FileStats path="com/dao/impl/MineDaoImpl.java" bugCount="0" size="35"/>
+    <FileStats path="com/dao/impl/SychronizeDaoImpl.java" bugCount="0" size="77"/>
+    <FileStats path="com/dao/impl/SystemLogDaoImpl.java" bugCount="0" size="45"/>
+    <FileStats path="com/dao/impl/UserDaoImpl.java" bugCount="0" size="58"/>
+    <FileStats path="com/dwr/DWRUtil.java" bugCount="0" size="11"/>
+    <FileStats path="com/filter/LoginFilter.java" bugCount="0" size="16"/>
+    <FileStats path="com/filter/PathFilter.java" bugCount="0" size="12"/>
+    <FileStats path="com/listener/MainListener.java" bugCount="0" size="14"/>
+    <FileStats path="com/listener/task/SetDataBackUpTask.java" bugCount="0" size="29"/>
+    <FileStats path="com/manager/CarManager.java" bugCount="0" size="7"/>
+    <FileStats path="com/manager/DailyManager.java" bugCount="0" size="14"/>
+    <FileStats path="com/manager/HangUpManager.java" bugCount="0" size="5"/>
+    <FileStats path="com/manager/MineManager.java" bugCount="0" size="6"/>
+    <FileStats path="com/manager/SychronizeManager.java" bugCount="0" size="15"/>
+    <FileStats path="com/manager/SystemLogManager.java" bugCount="0" size="5"/>
+    <FileStats path="com/manager/UserManager.java" bugCount="0" size="6"/>
+    <FileStats path="com/manager/impl/CarManagerImpl.java" bugCount="0" size="29"/>
+    <FileStats path="com/manager/impl/DailyManagerImpl.java" bugCount="0" size="115"/>
+    <FileStats path="com/manager/impl/HangUpManagerImpl.java" bugCount="0" size="71"/>
+    <FileStats path="com/manager/impl/MineManagerImpl.java" bugCount="0" size="31"/>
+    <FileStats path="com/manager/impl/SychronizeManagerImpl.java" bugCount="0" size="104"/>
+    <FileStats path="com/manager/impl/SystemLogManagerImpl.java" bugCount="0" size="23"/>
+    <FileStats path="com/manager/impl/UserManagerImpl.java" bugCount="0" size="36"/>
+    <FileStats path="com/po/CarInfo.java" bugCount="0" size="63"/>
+    <FileStats path="com/po/DailyInfo.java" bugCount="0" size="119"/>
+    <FileStats path="com/po/ExportDateAssistant.java" bugCount="0" size="39"/>
+    <FileStats path="com/po/HangUpOperation.java" bugCount="0" size="58"/>
+    <FileStats path="com/po/IpInfo.java" bugCount="0" size="41"/>
+    <FileStats path="com/po/MineInfo.java" bugCount="0" size="41"/>
+    <FileStats path="com/po/PortInfo.java" bugCount="0" size="33"/>
+    <FileStats path="com/po/SystemLogInfo.java" bugCount="0" size="65"/>
+    <FileStats path="com/po/UserInfo.java" bugCount="0" size="64"/>
+    <FileStats path="com/rs232/RS232Dealer.java" bugCount="0" size="49"/>
+    <FileStats path="com/rs232/RS232Listener.java" bugCount="0" size="15"/>
+    <FileStats path="com/socket/FileClientSocket.java" bugCount="0" size="122"/>
+    <FileStats path="com/socket/FileServerSocket.java" bugCount="0" size="133"/>
+    <FileStats path="com/socket/Test.java" bugCount="0" size="8"/>
+    <FileStats path="com/taglib/PageTag.java" bugCount="0" size="10"/>
+    <FileStats path="com/util/ExportToExcel.java" bugCount="0" size="76"/>
+    <FileStats path="com/util/JsonUtil.java" bugCount="0" size="143"/>
+    <FileStats path="com/util/MyUtil.java" bugCount="0" size="144"/>
+    <FileStats path="com/util/NetSpeedUtil.java" bugCount="0" size="20"/>
+    <FileStats path="com/util/Page.java" bugCount="0" size="82"/>
+    <FileStats path="com/util/test/ExportToTxt.java" bugCount="0" size="47"/>
+    <FileStats path="com/vo/CarSearchVO.java" bugCount="0" size="67"/>
+    <FileStats path="com/vo/DailyLoadInfoVO.java" bugCount="0" size="236"/>
+    <FileStats path="com/vo/DailySearchVO.java" bugCount="0" size="109"/>
+    <FileStats path="com/vo/HangUpOperationVO.java" bugCount="0" size="89"/>
+    <FileStats path="com/vo/UserSearchVO.java" bugCount="0" size="21"/>
+    <PackageStats package="com.action" total_bugs="0" total_types="7" total_size="221">
+      <ClassStats class="com.action.BaseAction" sourceFile="BaseAction.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.action.CarAction" sourceFile="CarAction.java" interface="false" size="40" bugs="0"/>
+      <ClassStats class="com.action.DailyAction" sourceFile="DailyAction.java" interface="false" size="43" bugs="0"/>
+      <ClassStats class="com.action.HangUpAction" sourceFile="HangUpAction.java" interface="false" size="22" bugs="0"/>
+      <ClassStats class="com.action.MineAction" sourceFile="MineAction.java" interface="false" size="32" bugs="0"/>
+      <ClassStats class="com.action.SystemLogAction" sourceFile="SystemLogAction.java" interface="false" size="25" bugs="0"/>
+      <ClassStats class="com.action.UserAction" sourceFile="UserAction.java" interface="false" size="45" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.dao" total_bugs="0" total_types="7" total_size="63">
+      <ClassStats class="com.dao.CarDao" sourceFile="CarDao.java" interface="true" size="7" bugs="0"/>
+      <ClassStats class="com.dao.DailyDao" sourceFile="DailyDao.java" interface="true" size="16" bugs="0"/>
+      <ClassStats class="com.dao.HangUpDao" sourceFile="HangUpDao.java" interface="true" size="4" bugs="0"/>
+      <ClassStats class="com.dao.MineDao" sourceFile="MineDao.java" interface="true" size="6" bugs="0"/>
+      <ClassStats class="com.dao.SychronizeDao" sourceFile="SychronizeDao.java" interface="true" size="17" bugs="0"/>
+      <ClassStats class="com.dao.SystemLogDao" sourceFile="SystemLogDao.java" interface="true" size="6" bugs="0"/>
+      <ClassStats class="com.dao.UserDao" sourceFile="UserDao.java" interface="true" size="7" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.dao.impl" total_bugs="0" total_types="16" total_size="429">
+      <ClassStats class="com.dao.impl.CarDaoImpl" sourceFile="CarDaoImpl.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="com.dao.impl.CarDaoImpl$1" sourceFile="CarDaoImpl.java" interface="false" size="34" bugs="0"/>
+      <ClassStats class="com.dao.impl.DailyDaoImpl" sourceFile="DailyDaoImpl.java" interface="false" size="58" bugs="0"/>
+      <ClassStats class="com.dao.impl.DailyDaoImpl$1" sourceFile="DailyDaoImpl.java" interface="false" size="64" bugs="0"/>
+      <ClassStats class="com.dao.impl.DailyDaoImpl$2" sourceFile="DailyDaoImpl.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="com.dao.impl.DailyDaoImpl$3" sourceFile="DailyDaoImpl.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="com.dao.impl.HangUpDaoImpl" sourceFile="HangUpDaoImpl.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.dao.impl.MineDaoImpl" sourceFile="MineDaoImpl.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="com.dao.impl.MineDaoImpl$1" sourceFile="MineDaoImpl.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.dao.impl.SychronizeDaoImpl" sourceFile="SychronizeDaoImpl.java" interface="false" size="55" bugs="0"/>
+      <ClassStats class="com.dao.impl.SychronizeDaoImpl$1" sourceFile="SychronizeDaoImpl.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.dao.impl.SychronizeDaoImpl$2" sourceFile="SychronizeDaoImpl.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.dao.impl.SystemLogDaoImpl" sourceFile="SystemLogDaoImpl.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="com.dao.impl.SystemLogDaoImpl$1" sourceFile="SystemLogDaoImpl.java" interface="false" size="22" bugs="0"/>
+      <ClassStats class="com.dao.impl.UserDaoImpl" sourceFile="UserDaoImpl.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="com.dao.impl.UserDaoImpl$1" sourceFile="UserDaoImpl.java" interface="false" size="39" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.dwr" total_bugs="0" total_types="1" total_size="11">
+      <ClassStats class="com.dwr.DWRUtil" sourceFile="DWRUtil.java" interface="false" size="11" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.filter" total_bugs="0" total_types="2" total_size="28">
+      <ClassStats class="com.filter.LoginFilter" sourceFile="LoginFilter.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="com.filter.PathFilter" sourceFile="PathFilter.java" interface="false" size="12" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.listener" total_bugs="0" total_types="1" total_size="14">
+      <ClassStats class="com.listener.MainListener" sourceFile="MainListener.java" interface="false" size="14" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.listener.task" total_bugs="0" total_types="1" total_size="29">
+      <ClassStats class="com.listener.task.SetDataBackUpTask" sourceFile="SetDataBackUpTask.java" interface="false" size="29" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.manager" total_bugs="0" total_types="7" total_size="58">
+      <ClassStats class="com.manager.CarManager" sourceFile="CarManager.java" interface="true" size="7" bugs="0"/>
+      <ClassStats class="com.manager.DailyManager" sourceFile="DailyManager.java" interface="true" size="14" bugs="0"/>
+      <ClassStats class="com.manager.HangUpManager" sourceFile="HangUpManager.java" interface="true" size="5" bugs="0"/>
+      <ClassStats class="com.manager.MineManager" sourceFile="MineManager.java" interface="true" size="6" bugs="0"/>
+      <ClassStats class="com.manager.SychronizeManager" sourceFile="SychronizeManager.java" interface="true" size="15" bugs="0"/>
+      <ClassStats class="com.manager.SystemLogManager" sourceFile="SystemLogManager.java" interface="true" size="5" bugs="0"/>
+      <ClassStats class="com.manager.UserManager" sourceFile="UserManager.java" interface="true" size="6" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.manager.impl" total_bugs="0" total_types="7" total_size="409">
+      <ClassStats class="com.manager.impl.CarManagerImpl" sourceFile="CarManagerImpl.java" interface="false" size="29" bugs="0"/>
+      <ClassStats class="com.manager.impl.DailyManagerImpl" sourceFile="DailyManagerImpl.java" interface="false" size="115" bugs="0"/>
+      <ClassStats class="com.manager.impl.HangUpManagerImpl" sourceFile="HangUpManagerImpl.java" interface="false" size="71" bugs="0"/>
+      <ClassStats class="com.manager.impl.MineManagerImpl" sourceFile="MineManagerImpl.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="com.manager.impl.SychronizeManagerImpl" sourceFile="SychronizeManagerImpl.java" interface="false" size="104" bugs="0"/>
+      <ClassStats class="com.manager.impl.SystemLogManagerImpl" sourceFile="SystemLogManagerImpl.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="com.manager.impl.UserManagerImpl" sourceFile="UserManagerImpl.java" interface="false" size="36" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.po" total_bugs="0" total_types="9" total_size="523">
+      <ClassStats class="com.po.CarInfo" sourceFile="CarInfo.java" interface="false" size="63" bugs="0"/>
+      <ClassStats class="com.po.DailyInfo" sourceFile="DailyInfo.java" interface="false" size="119" bugs="0"/>
+      <ClassStats class="com.po.ExportDateAssistant" sourceFile="ExportDateAssistant.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="com.po.HangUpOperation" sourceFile="HangUpOperation.java" interface="false" size="58" bugs="0"/>
+      <ClassStats class="com.po.IpInfo" sourceFile="IpInfo.java" interface="false" size="41" bugs="0"/>
+      <ClassStats class="com.po.MineInfo" sourceFile="MineInfo.java" interface="false" size="41" bugs="0"/>
+      <ClassStats class="com.po.PortInfo" sourceFile="PortInfo.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="com.po.SystemLogInfo" sourceFile="SystemLogInfo.java" interface="false" size="65" bugs="0"/>
+      <ClassStats class="com.po.UserInfo" sourceFile="UserInfo.java" interface="false" size="64" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.rs232" total_bugs="0" total_types="2" total_size="64">
+      <ClassStats class="com.rs232.RS232Dealer" sourceFile="RS232Dealer.java" interface="false" size="49" bugs="0"/>
+      <ClassStats class="com.rs232.RS232Listener" sourceFile="RS232Listener.java" interface="false" size="15" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.socket" total_bugs="0" total_types="3" total_size="263">
+      <ClassStats class="com.socket.FileClientSocket" sourceFile="FileClientSocket.java" interface="false" size="122" bugs="0"/>
+      <ClassStats class="com.socket.FileServerSocket" sourceFile="FileServerSocket.java" interface="false" size="133" bugs="0"/>
+      <ClassStats class="com.socket.Test" sourceFile="Test.java" interface="false" size="8" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.taglib" total_bugs="0" total_types="1" total_size="10">
+      <ClassStats class="com.taglib.PageTag" sourceFile="PageTag.java" interface="false" size="10" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.util" total_bugs="0" total_types="5" total_size="465">
+      <ClassStats class="com.util.ExportToExcel" sourceFile="ExportToExcel.java" interface="false" size="76" bugs="0"/>
+      <ClassStats class="com.util.JsonUtil" sourceFile="JsonUtil.java" interface="false" size="143" bugs="0"/>
+      <ClassStats class="com.util.MyUtil" sourceFile="MyUtil.java" interface="false" size="144" bugs="0"/>
+      <ClassStats class="com.util.NetSpeedUtil" sourceFile="NetSpeedUtil.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="com.util.Page" sourceFile="Page.java" interface="false" size="82" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.util.test" total_bugs="0" total_types="1" total_size="47">
+      <ClassStats class="com.util.test.ExportToTxt" sourceFile="ExportToTxt.java" interface="false" size="47" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.vo" total_bugs="0" total_types="5" total_size="522">
+      <ClassStats class="com.vo.CarSearchVO" sourceFile="CarSearchVO.java" interface="false" size="67" bugs="0"/>
+      <ClassStats class="com.vo.DailyLoadInfoVO" sourceFile="DailyLoadInfoVO.java" interface="false" size="236" bugs="0"/>
+      <ClassStats class="com.vo.DailySearchVO" sourceFile="DailySearchVO.java" interface="false" size="109" bugs="0"/>
+      <ClassStats class="com.vo.HangUpOperationVO" sourceFile="HangUpOperationVO.java" interface="false" size="89" bugs="0"/>
+      <ClassStats class="com.vo.UserSearchVO" sourceFile="UserSearchVO.java" interface="false" size="21" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="1048" invocations="879" avgMicrosecondsPerInvocation="1192" maxMicrosecondsPerInvocation="37981" standardDeviationMicrosecondsPerInvocation="2712"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="871" invocations="876" avgMicrosecondsPerInvocation="994" maxMicrosecondsPerInvocation="63959" standardDeviationMicrosecondsPerInvocation="3628"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="601" invocations="638" avgMicrosecondsPerInvocation="942" maxMicrosecondsPerInvocation="50825" standardDeviationMicrosecondsPerInvocation="3970"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="537" invocations="638" avgMicrosecondsPerInvocation="842" maxMicrosecondsPerInvocation="59192" standardDeviationMicrosecondsPerInvocation="3987"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="537" invocations="178" avgMicrosecondsPerInvocation="3017" maxMicrosecondsPerInvocation="49188" standardDeviationMicrosecondsPerInvocation="7034"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.taintanalysis.TaintDataflowEngine" totalMilliseconds="529" invocations="638" avgMicrosecondsPerInvocation="830" maxMicrosecondsPerInvocation="93855" standardDeviationMicrosecondsPerInvocation="4970"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="482" invocations="178" avgMicrosecondsPerInvocation="2709" maxMicrosecondsPerInvocation="65543" standardDeviationMicrosecondsPerInvocation="6750"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="472" invocations="649" avgMicrosecondsPerInvocation="727" maxMicrosecondsPerInvocation="35658" standardDeviationMicrosecondsPerInvocation="3030"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="436" invocations="638" avgMicrosecondsPerInvocation="684" maxMicrosecondsPerInvocation="43269" standardDeviationMicrosecondsPerInvocation="2911"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="408" invocations="830" avgMicrosecondsPerInvocation="492" maxMicrosecondsPerInvocation="24893" standardDeviationMicrosecondsPerInvocation="1792"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="361" invocations="745" avgMicrosecondsPerInvocation="485" maxMicrosecondsPerInvocation="41507" standardDeviationMicrosecondsPerInvocation="2489"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="343" invocations="649" avgMicrosecondsPerInvocation="529" maxMicrosecondsPerInvocation="30336" standardDeviationMicrosecondsPerInvocation="2157"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.StreamResourceTracker" totalMilliseconds="317" invocations="81" avgMicrosecondsPerInvocation="3923" maxMicrosecondsPerInvocation="32632" standardDeviationMicrosecondsPerInvocation="5677"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="273" invocations="340" avgMicrosecondsPerInvocation="805" maxMicrosecondsPerInvocation="65687" standardDeviationMicrosecondsPerInvocation="4010"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="219" invocations="75" avgMicrosecondsPerInvocation="2931" maxMicrosecondsPerInvocation="53702" standardDeviationMicrosecondsPerInvocation="9237"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="185" invocations="745" avgMicrosecondsPerInvocation="249" maxMicrosecondsPerInvocation="82821" standardDeviationMicrosecondsPerInvocation="3096"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.sql.SqlInjectionDetector" totalMilliseconds="153" invocations="75" avgMicrosecondsPerInvocation="2042" maxMicrosecondsPerInvocation="52106" standardDeviationMicrosecondsPerInvocation="8193"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.LazyInit" totalMilliseconds="144" invocations="75" avgMicrosecondsPerInvocation="1920" maxMicrosecondsPerInvocation="109420" standardDeviationMicrosecondsPerInvocation="13009"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="132" invocations="280" avgMicrosecondsPerInvocation="473" maxMicrosecondsPerInvocation="44548" standardDeviationMicrosecondsPerInvocation="2913"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="118" invocations="830" avgMicrosecondsPerInvocation="142" maxMicrosecondsPerInvocation="7400" standardDeviationMicrosecondsPerInvocation="436"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="116" invocations="178" avgMicrosecondsPerInvocation="656" maxMicrosecondsPerInvocation="45509" standardDeviationMicrosecondsPerInvocation="3521"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.scala.SSRFDetector" totalMilliseconds="110" invocations="75" avgMicrosecondsPerInvocation="1478" maxMicrosecondsPerInvocation="43007" standardDeviationMicrosecondsPerInvocation="6187"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="109" invocations="75" avgMicrosecondsPerInvocation="1459" maxMicrosecondsPerInvocation="62361" standardDeviationMicrosecondsPerInvocation="7535"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="108" invocations="178" avgMicrosecondsPerInvocation="606" maxMicrosecondsPerInvocation="14876" standardDeviationMicrosecondsPerInvocation="1480"/>
+      <ClassProfile name="edu.umd.cs.findbugs.DetectorToDetector2Adapter" totalMilliseconds="104" invocations="16134" avgMicrosecondsPerInvocation="6" maxMicrosecondsPerInvocation="15851" standardDeviationMicrosecondsPerInvocation="134"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="99" invocations="178" avgMicrosecondsPerInvocation="561" maxMicrosecondsPerInvocation="8038" standardDeviationMicrosecondsPerInvocation="1213"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindBadForLoop" totalMilliseconds="97" invocations="75" avgMicrosecondsPerInvocation="1294" maxMicrosecondsPerInvocation="70219" standardDeviationMicrosecondsPerInvocation="8052"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="97" invocations="638" avgMicrosecondsPerInvocation="152" maxMicrosecondsPerInvocation="6530" standardDeviationMicrosecondsPerInvocation="588"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="92" invocations="178" avgMicrosecondsPerInvocation="517" maxMicrosecondsPerInvocation="7936" standardDeviationMicrosecondsPerInvocation="802"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="91" invocations="178" avgMicrosecondsPerInvocation="513" maxMicrosecondsPerInvocation="26507" standardDeviationMicrosecondsPerInvocation="2081"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="89" invocations="178" avgMicrosecondsPerInvocation="503" maxMicrosecondsPerInvocation="21661" standardDeviationMicrosecondsPerInvocation="2175"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.SerializableIdiom" totalMilliseconds="88" invocations="75" avgMicrosecondsPerInvocation="1175" maxMicrosecondsPerInvocation="27184" standardDeviationMicrosecondsPerInvocation="4089"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.LoadOfKnownNullValue" totalMilliseconds="87" invocations="75" avgMicrosecondsPerInvocation="1172" maxMicrosecondsPerInvocation="17267" standardDeviationMicrosecondsPerInvocation="2275"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.file.PathTraversalDetector" totalMilliseconds="82" invocations="75" avgMicrosecondsPerInvocation="1102" maxMicrosecondsPerInvocation="12919" standardDeviationMicrosecondsPerInvocation="1934"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.TypeQualifierNullnessAnnotationDatabase" totalMilliseconds="78" invocations="9809" avgMicrosecondsPerInvocation="8" maxMicrosecondsPerInvocation="9186" standardDeviationMicrosecondsPerInvocation="105"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.crypto.NullCipherDetector" totalMilliseconds="77" invocations="75" avgMicrosecondsPerInvocation="1030" maxMicrosecondsPerInvocation="46385" standardDeviationMicrosecondsPerInvocation="5515"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="77" invocations="75" avgMicrosecondsPerInvocation="1026" maxMicrosecondsPerInvocation="8545" standardDeviationMicrosecondsPerInvocation="1432"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReflectiveClasses" totalMilliseconds="75" invocations="178" avgMicrosecondsPerInvocation="424" maxMicrosecondsPerInvocation="39888" standardDeviationMicrosecondsPerInvocation="2994"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.ldap.LdapInjectionDetector" totalMilliseconds="74" invocations="75" avgMicrosecondsPerInvocation="998" maxMicrosecondsPerInvocation="37937" standardDeviationMicrosecondsPerInvocation="4349"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CheckRelaxingNullnessAnnotation" totalMilliseconds="74" invocations="75" avgMicrosecondsPerInvocation="992" maxMicrosecondsPerInvocation="25010" standardDeviationMicrosecondsPerInvocation="3692"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.obl.ObligationAnalysis" totalMilliseconds="73" invocations="37" avgMicrosecondsPerInvocation="1992" maxMicrosecondsPerInvocation="17977" standardDeviationMicrosecondsPerInvocation="3509"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref" totalMilliseconds="72" invocations="75" avgMicrosecondsPerInvocation="961" maxMicrosecondsPerInvocation="15450" standardDeviationMicrosecondsPerInvocation="2032"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.trust.TrustBoundaryViolationValueDetector" totalMilliseconds="69" invocations="75" avgMicrosecondsPerInvocation="922" maxMicrosecondsPerInvocation="34066" standardDeviationMicrosecondsPerInvocation="3908"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.command.CommandInjectionDetector" totalMilliseconds="65" invocations="75" avgMicrosecondsPerInvocation="875" maxMicrosecondsPerInvocation="15709" standardDeviationMicrosecondsPerInvocation="1998"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.LiveLocalStoreDataflowFactory" totalMilliseconds="64" invocations="638" avgMicrosecondsPerInvocation="101" maxMicrosecondsPerInvocation="13007" standardDeviationMicrosecondsPerInvocation="616"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.xml.StdXmlTransformDetector" totalMilliseconds="63" invocations="75" avgMicrosecondsPerInvocation="840" maxMicrosecondsPerInvocation="14619" standardDeviationMicrosecondsPerInvocation="2007"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueRangeAnalysisFactory" totalMilliseconds="62" invocations="745" avgMicrosecondsPerInvocation="84" maxMicrosecondsPerInvocation="15720" standardDeviationMicrosecondsPerInvocation="717"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref$CheckCallSitesAndReturnInstructions" totalMilliseconds="62" invocations="638" avgMicrosecondsPerInvocation="97" maxMicrosecondsPerInvocation="14417" standardDeviationMicrosecondsPerInvocation="609"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.formatter.FormatStringManipulationDetector" totalMilliseconds="61" invocations="75" avgMicrosecondsPerInvocation="822" maxMicrosecondsPerInvocation="16489" standardDeviationMicrosecondsPerInvocation="2110"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="61" invocations="178" avgMicrosecondsPerInvocation="344" maxMicrosecondsPerInvocation="24004" standardDeviationMicrosecondsPerInvocation="2141"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindUselessObjects" totalMilliseconds="61" invocations="75" avgMicrosecondsPerInvocation="815" maxMicrosecondsPerInvocation="12449" standardDeviationMicrosecondsPerInvocation="1914"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindFieldSelfAssignment" totalMilliseconds="60" invocations="75" avgMicrosecondsPerInvocation="809" maxMicrosecondsPerInvocation="41549" standardDeviationMicrosecondsPerInvocation="4746"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindInconsistentSync2" totalMilliseconds="59" invocations="75" avgMicrosecondsPerInvocation="795" maxMicrosecondsPerInvocation="8690" standardDeviationMicrosecondsPerInvocation="1327"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.redirect.UnvalidatedRedirectDetector" totalMilliseconds="59" invocations="75" avgMicrosecondsPerInvocation="791" maxMicrosecondsPerInvocation="18967" standardDeviationMicrosecondsPerInvocation="2227"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindDeadLocalStores" totalMilliseconds="58" invocations="75" avgMicrosecondsPerInvocation="781" maxMicrosecondsPerInvocation="10215" standardDeviationMicrosecondsPerInvocation="1700"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.beans.BeanInjectionDetector" totalMilliseconds="57" invocations="75" avgMicrosecondsPerInvocation="761" maxMicrosecondsPerInvocation="24252" standardDeviationMicrosecondsPerInvocation="2812"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

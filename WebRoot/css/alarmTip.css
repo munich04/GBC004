@@ -1,0 +1,49 @@
+<!--错误消息提示Tip的css 务必和js /alarmTip.js一起使用 -->
+.alarmDiv {
+	background: #e0eeee;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	filter: alpha(opacity = 30)
+}
+
+.tipDiv {
+	font-family: "微软雅黑";
+	font-size: 13px;
+	position: absolute;
+	width: 280px;
+	height: 90px;
+	font-weight: bold;
+}
+
+.tipTitleDiv {
+	height: 15px;
+	padding: 5px;
+	background: #3D59AB;
+	color: #fff;
+	cursor: move;
+}
+
+.tipInfoDiv {
+	padding: 20px;
+	font-weight: bold;
+	background: #fff;
+	text-align: center;
+}
+
+.tipCloseDiv {
+	height: 25px;
+	background: #fff;
+	text-align: right;
+}
+
+.tipCloseDiv span {
+	margin: 5px 5px 15px 5px;
+	padding: 3px;
+	font-weight: normal;
+	background: #f5f5f5;
+	color: #3D59AB;
+	cursor: hand;
+}

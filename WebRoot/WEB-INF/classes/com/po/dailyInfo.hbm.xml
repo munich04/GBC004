@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+	<class name="com.po.DailyInfo" table="dailyinfo">
+		<id name="id" column="id">
+			<generator class="uuid"></generator>
+		</id>
+		<property name="dailyNum" column="dailyNum"></property>
+		<property name="carIDCardID" column="carIDCardID"></property>
+		<property name="mineName" column="mineName"></property>
+		<property name="grossWeight" column="grossWeight"></property>
+		<property name="tareWeight" column="tareWeight"></property>
+		<property name="receiveDept" column="receiveDept"></property>
+		<property name="departure" column="departure"></property>
+		<property name="operator" column="operator"></property>
+		<property name="loadingInfo" column="loadingInfo"></property>
+		<property name="makingNotes" column="makingNotes"></property>
+		<property name="notes" column="notes"></property>
+		<property name="inTime" column="inTime"></property>
+		<property name="outTime" column="outTime"></property>
+		<property name="hangUpState" column="hangUpState"></property>
+		<property name="deleteState" column="deleteState"></property>
+	</class>
+
+</hibernate-mapping>

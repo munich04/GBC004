@@ -1,0 +1,93 @@
+<!-- 票据打印专用css：橘红色版本 -->
+body {
+	margin:0;
+	padding:0;
+	text-align: center;
+	font-size: 13px;
+}
+
+#voucherDiv {
+	width:25cm;
+	height:7cm;
+	color: orange;
+	margin:5px auto;
+}
+
+#voucherDiv h2 {
+	text-decoration: underline;
+}
+
+#voucherDiv table {
+	color: orange;
+}
+
+#voucherDiv table td {
+	line-height:35px;
+	font-size:18px;
+}
+
+#headerTable td {
+	text-align: right;
+}
+
+#headerTable td span{
+	font-size:20px;
+}
+
+#mainTable {
+	border-top:1px solid orange;
+	border-left:1px solid orange;
+	border-right:none;
+	border-bottom:none;
+}
+
+#mainTable td {
+	text-align: center;
+	border-right:1px solid orange;
+	border-bottom:1px solid orange;
+	border-top:none;
+	border-left:none;
+}
+
+#mainTable td span {
+	font-size:18px;
+}
+
+table td font{
+	font-size:25px;
+	color: red;
+}
+
+#bottomTable td {
+	text-align: left;
+}
+
+.rightDivStyle1 {
+	width: 20px;
+	height: 20px;
+	font-size: 14px;
+	color: orange;
+	margin: 170px 10px 0px 5px;
+	float:left;
+}
+
+.divContainer1{
+	width:220px;
+}
+.divTitle1 {
+	background:#33A1C9;
+	font-size:13px;
+	font-weight:bold;
+	color:#FFFFFF;
+	padding:5px 3px 3px 3px;
+	text-align:left;
+}
+
+.divContent1 {
+	color:red;
+	font-size:25px;
+	font-weight:bold;
+	text-align:center;
+	padding:25px;
+	height:80px;
+	background-color:#F7F7F7;

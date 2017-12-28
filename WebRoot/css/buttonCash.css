@@ -1,0 +1,45 @@
+.menu {
+	width: 30%;
+	margin: 20px;
+	text-align:center;
+	float:left;
+}
+
+.menu ul {
+	list-style: none;
+}
+
+.menu li {
+	display: block;
+}
+
+.menu li a {
+	background: #979797 url(../pic/menu_bg6.gif) repeat-x;
+	border: 2px solid #939393;
+	margin: 0 2px;
+	padding: 18px 15px 5px 15px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	font-family:"Î¢ÈíÑÅºÚ";
+	font-size: 16px;
+	font-weight: bold;
+	height: 40px;
+	width:100px;
+}
+
+.menu li a span {
+	color: #636363;
+	font: 13px "Î¢ÈíÑÅºÚ";
+	font-weight: normal;
+}
+
+.menu li a:hover {
+	background: #e46825 url(../pic/menu_hover6.gif) repeat-x;
+	border: 2px solid #939393;
+	text-decoration: none;
+}
+
+.menu li a:hover span {
+	color: #636363;
+}

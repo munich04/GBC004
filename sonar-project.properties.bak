@@ -1,0 +1,26 @@
+sonar.projectKey=GBC01
+sonar.projectName=GBC01
+sonar.projectVersion=1.0
+
+sonar.modules=java-module,js-module,jsp-module
+
+# Java module
+java-module.sonar.projectName=Java Module
+java-module.sonar.language=java
+java-module.sonar.projectBaseDir=src
+java-module.sonar.sources=.
+sonar.java.binaries=../WebRoot/WEB-INF/classes
+sonar.java.libraries=../WebRoot/WEB-INF/lib
+
+#js module
+js-module.sonar.projectName=JS Module
+js-module.sonar.language=js
+js-module.sonar.projectBaseDir=WebRoot/js
+js-module.sonar.sources=.,../carInfo/*.jsp
+js-module.sonar.exclusions=jquery/*
+
+#jsp-module
+jsp-module.sonar.projectName=JSP Module
+jsp-module.sonar.language=jsp
+jsp-module.sonar.projectBaseDir=WebRoot
+jsp-module.sonar.sources=carInfo,dailyInfo,mineInfo

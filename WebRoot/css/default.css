@@ -1,0 +1,232 @@
+<!-- È«¾ÖÊôÐÔ -->
+body {
+	overflow-x: auto;
+	overflow-y: auto;
+	margin: 0;
+	padding: 0px;
+	font-size: 12px;
+	font-family: "Î¢ÈíÑÅºÚ";
+	SCROLLBAR-ARROW-COLOR: #000;
+	SCROLLBAR-FACE-COLOR: #FFF;
+	SCROLLBAR-DARKSHADOW-COLOR: #BFC0BB;
+	SCROLLBAR-HIGHLIGHT-COLOR: #BFC0BB;
+	SCROLLBAR-3DLIGHT-COLOR: #FFF;
+	SCROLLBAR-SHADOW-COLOR: #FFF;
+	SCROLLBAR-TRACK-COLOR: #F3F8FE;
+}
+
+.center {
+	text-align: center;
+}
+
+div {
+	SCROLLBAR-ARROW-COLOR: #000;
+	SCROLLBAR-FACE-COLOR: #FFF;
+	SCROLLBAR-DARKSHADOW-COLOR: #BFC0BB;
+	SCROLLBAR-HIGHLIGHT-COLOR: #BFC0BB;
+	SCROLLBAR-3DLIGHT-COLOR: #FFF;
+	SCROLLBAR-SHADOW-COLOR: #FFF;
+	SCROLLBAR-TRACK-COLOR: #F3F8FE;
+}
+
+div,form,img,ul,ol,li,dl,dt,dd {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: 12px "Î¢ÈíÑÅºÚ";
+}
+
+h1,h2,h3,h4,h5,h6,ul {
+	margin: 0;
+	padding: 0;
+}
+
+table,td,tr,th,form {
+	font-size: 12px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font: 12px "Î¢ÈíÑÅºÚ";
+}
+
+td {
+	color: #333;
+	font-size: 12px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #21398f;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #21398f;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+a:hover {
+	color: #21398f;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:active {
+	text-decoration: none;
+	color: #21398f;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+input,textarea,select {
+	vertical-align: middle;
+	border: 1px solid #787878;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+<!--±í¸ñTableÊôÐÔ -->.main {
+	background-color: #7ba6e7;
+	color: #000;
+	myhyli: expression(this.cellSpacing = 1)
+}
+
+.main caption {
+	background: #dfecfd url(..pic/tdcaption.jpg) repeat-x top;
+	padding: 4px 3px;
+	text-align: left;
+	font-weight: bold;
+	border-right: 1px solid #7ba6e7;
+	border-left: 1px solid #7ba6e7;
+	border-top: 1px solid #7ba6e7;
+}
+
+.main caption span {
+	text-align: left;
+	font-weight: bold;
+}
+
+.main caption img {
+	margin-right: 3px
+}
+
+.main thead,.win_list thead {
+	background-color: #ebf2fb;
+	line-height: 30px;
+}
+
+.main tbody {
+	background-color: #FFFFFF;
+}
+
+.main td {
+	padding: 5px 5px;
+	white-space: nowrap;
+}
+
+.main th,.win_list th {
+	padding: 4px;
+	background-color: #f5f5f5;
+}
+
+.main a,#page a {
+	color: #21398f;
+	text-decoration: underline;
+}
+
+.main a:hover,#page a:hover {
+	color: #21398f;
+	text-decoration: none;
+}
+
+.main td.center {
+	text-align: center;
+}
+
+.btnStyle1 {
+	clear: both;
+	text-align: center
+}
+
+.btnStyle1 input {
+	background: #fff url(../pic/btnBG.jpg) repeat-x top;
+	height: 20px;
+	color: #245481;
+	text-align: center;
+	border: 1px solid #237bce;
+	cursor: pointer;
+}
+
+.inputclass {
+	background: #fff url(../pic/btnBG.jpg) repeat-x top;
+	height: 20px;
+	color: #245481;
+	text-align: center;
+	border: 1px solid #237bce;
+	cursor: pointer;
+}
+
+.tr_on {
+	background-color: #fcffe1;
+}
+
+.form_txt {
+	background-color: #f5f5f5;
+	text-align: right;
+}
+
+.form_txt_center {
+	background-color: #f5f5f5;
+	text-align: center;
+}
+
+.form {
+	padding: 0;
+}
+
+<!-- ·ÖÒ³±êÇ©ÊôÐÔ -->
+#pageDiv {
+	margin: 10px 5px;
+	padding: 0;
+	font-size: 13px;
+	text-align: right;
+}
+
+#pageDiv a {
+	display: inline-block;
+	background: url(../pic/q1.gif) no-repeat left top;
+	text-decoration: none;
+	padding-left: 8px;
+	color: #FFF;
+}
+
+#pageDiv a.active:hover {
+	background: url(../pic/q1.gif) no-repeat left -24px;
+	color: #000;
+}
+
+#pageDiv a span {
+	display: inline-block;
+	background: url(../pic/q1.gif) no-repeat right top;
+	height: 24px;
+	line-height: 24px;
+	padding-right: 8px;
+	cursor: pointer;
+}
+
+#pageDiv a.active:hover span {
+	background: url(../pic/q1.gif) no-repeat right -24px;
+}
+
+#pageDiv a.disable {
+	color: gray;
+}
+
+#pageDiv a.curPage {
+	color: #000;
+}

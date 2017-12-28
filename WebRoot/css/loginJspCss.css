@@ -1,0 +1,70 @@
+<!--µÇÂ¼Ò³Ãæ×¨ÓÃcss-->
+.{
+font-family
+:
+ 
+"
+Î¢ÈíÑÅºÚ
+";
+ 
+font-size
+:
+12px;
+}
+body {
+	background-color: #123456;
+	text-align: center;
+}
+
+#div1 {
+	margin: 200px auto;
+}
+
+#topDiv {
+	width: 300px;
+	color: #84aeb9;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: left;
+}
+
+#mainDiv {
+	width: 300px;
+	height: 150px;
+	background-color: #cccccc;
+	border-style: double;
+	border-color: #C0C0C0;
+}
+
+#mainDiv div {
+	margin: 20px;
+}
+
+.spanStyle1 {
+	font-weight: bold;
+	text-align: right;
+	color: #515151;
+}
+
+.inputStyle1 {
+	background-color: #C0C0C0;
+	border-style: double;
+	border-color: #e6e6e6;
+	font-weight: bold;
+	color: #515151;
+}
+
+.spanTxt {
+	color: #515151;
+	padding: 5px;
+	text-decoration: underline;
+	cursor: hand;
+}
+
+.spanBtn {
+	background-color: #123456;
+	padding: 5px;
+	font-weight: bold;
+	color: #fff;
+	cursor: hand;
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dwr PUBLIC "-//GetAhead Limited//DTD Direct Web Remoting 2.0//EN" "http://getahead.org/dwr/dwr20.dtd">
+
+<dwr>
+	<allow>
+		<!-- scope=application 很重要 -->
+		<create creator="new" javascript="RS232Handler" scope="application">
+			<param name="class" value="com.rs232.RS232Dealer"></param>
+		</create>
+		
+		<create creator="new" javascript="netUtil" scope="application">
+			<param name="class" value="com.util.NetSpeedUtil"></param>
+		</create>
+		
+		<create creator="spring" javascript="carManager" scope="application">
+			<param name="beanName" value="carManager"></param>
+		</create>
+		
+		<create creator="spring" javascript="dailyManager" scope="application">
+			<param name="beanName" value="dailyManager"></param>
+		</create>
+		
+		<create creator="spring" javascript="sychronizeManager" scope="application">
+			<param name="beanName" value="sychronizeManager"></param>
+		</create>
+		
+		<create creator="spring" javascript="mineManager" scope="application">
+			<param name="beanName" value="mineManager"></param>
+		</create>
+		
+		<create creator="spring" javascript="hangUpManager" scope="application">
+			<param name="beanName" value="hangUpManager"></param>
+		</create>
+		
+		<create creator="spring" javascript="userManager" scope="application">
+			<param name="beanName" value="userManager"></param>
+		</create>
+		
+		<convert match="com.po.CarInfo" converter="bean"></convert>
+		<convert match="com.po.DailyInfo" converter="bean"></convert>
+		<convert match="com.vo.DailyLoadInfoVO" converter="bean"></convert>
+		<convert match="com.po.PortInfo" converter="bean"></convert>
+		<convert match="com.po.IpInfo" converter="bean"></convert>
+		<convert match="com.po.MineInfo" converter="bean"></convert>
+		<convert match="com.po.HangUpOperation" converter="bean"></convert>
+		<convert match="com.vo.HangUpOperationVO" converter="bean"></convert>
+		<convert match="com.po.ExportDateAssistant" converter="bean"></convert>
+		<convert match="com.po.SystemLogInfo" converter="bean"></convert>
+		
+	</allow>
+</dwr>

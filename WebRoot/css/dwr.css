@@ -1,0 +1,121 @@
+<!-- ³ÆÖØÒ³Ãæ×¨ÓÃcss -->
+body {
+	font: 13px "Î¢ÈíÑÅºÚ";
+}
+
+div {
+	padding: 3px;
+	margin: 3px;
+}
+
+.rs232Span1 {
+	width: 78px;
+	margin: 0px;
+	padding: 1px 5px;
+	color: #1E7ACE;
+	background: #f0eeee;
+	cursor: hand;
+}
+
+.rs232Span2 {
+	width: 78px;
+	margin: 0px;
+	padding: 1px 5px;
+	color: #ff0000;
+	background: #f0eeee;
+	cursor: hand;
+}
+
+.rs232Span3 {
+	width: 78px;
+	margin: 3px;
+	padding: 1px 5px;
+	color: #ff0000;
+	font-size: 20px;
+}
+
+.rs232Span4 {
+	width: 78px;
+	margin: 3px;
+	padding: 1px 5px;
+	color: #1E7ACE;
+	cursor: hand;
+	background: #f0eeee;
+}
+
+.rs232Span5 {
+	width: 78px;
+	margin: 3px;
+	padding: 1px 5px;
+	color: #FF8000;
+	cursor: hand;
+	background: #f0eeee;
+}
+
+.rs232Span6 {
+	padding: 0px 5px;
+	color: #3D59AB;
+	background: #f0f0f0;
+}
+
+.dataStrSpan1 {
+	margin: 3px;
+	height: 240px;
+	weight: 100px;
+	border: 1px solid #1E7ACE;
+	padding: 3px 10px;
+	line-height: 22px;
+	overflow: auto;
+}
+
+.dwrBtnStyle1 {
+	height:35;
+	BORDER-RIGHT: #7b9ebd 1px solid; 
+	PADDING-RIGHT: 2px;
+	BORDER-TOP:#7b9ebd 1px solid;
+	PADDING-LEFT: 2px; 
+	FONT-SIZE: 12px; 
+	FILTER:
+	progid:DXImageTransform.Microsoft.Gradient(GradientType=0,
+	StartColorStr=#ffffff, EndColorStr=#c0c0c0); 
+	BORDER-LEFT: #7b9ebd 1px solid; 
+	CURSOR: hand; 
+	COLOR: black; 
+	PADDING-TOP: 2px;
+	BORDER-BOTTOM: #7b9ebd 1px solid
+}
+
+.dwrBtnStyle2 {
+	height:35;
+	BORDER-RIGHT: #7b9ebd 1px solid; 
+	PADDING-RIGHT: 2px;
+	BORDER-TOP:#7b9ebd 1px solid;
+	PADDING-LEFT: 2px; 
+	FONT-SIZE: 12px; 
+	FILTER:
+	progid:DXImageTransform.Microsoft.Gradient(GradientType=0,
+	StartColorStr=#ffffff, EndColorStr=#FF8000); 
+	BORDER-LEFT: #7b9ebd 1px solid; 
+	CURSOR: hand; 
+	COLOR: black; 
+	PADDING-TOP: 2px;
+	BORDER-BOTTOM: #7b9ebd 1px solid
+}
+
+.dataStrSpan1 {
+	width: 170px;
+	height: 284px;
+	border: 1px solid #123456;
+	float: left;
+}
+
+.inputStyle1 {
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-color: #c0c0c0;
+	width: 100px;
+	color: red;
+	font-size: 20px;
+	font-family: "Î¢ÈíÑÅºÚ";
+}
